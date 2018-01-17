@@ -1,6 +1,86 @@
 /* Universal Styles */
 
 html {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Lora', serif;
+}
+
+h1 {
+    font-size: 3.5em;
+    font-weight: 300;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 1.75em;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+h5 {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.flex {
+  display: flex;
+}
+
+/* Header */
+
+header {
+  position: fixed;
+  width: 100%;
+  border-bottom: solid 1px #c6c1c1;
+  background-color: white;
+  z-index: 1;
+
+}
+
+header .content {
+  display: flex;
+  align-items: center;
+  padding: 1.3rem 1.8rem 0.3rem 1.3rem;
+}
+
+header .logo {
+  flex: 1;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+header img {
+  height: 32px;
+}
+
+#logotype {
+  word-spacing: 1.75rem;
+}
+
+header nav ul {
+  display: flex;
+}
+
+nav li {
+  padding-left: 3.5rem;
+}
+
+nav a {
+  vertical-align: bottom;
+  line-height: 1.6;
+  font-size: 1rem;
+  color: #4a4a4a;
+  text-transform: uppercase;
+  text-decoration: none;
+  word-spacing: .5rem;
 }
