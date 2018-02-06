@@ -36,51 +36,55 @@ h5 {
   display: flex;
 }
 
+.container {
+  max-width: 960px;
+  margin: auto;
+}
+
+.container-2 {
+  max-width: 75%;
+  margin: auto;
+}
 /* Header */
 
 header {
-  position: fixed;
-  width: 100%;
-  border-bottom: solid 1px #c6c1c1;
+  height: 40rem;
+  padding-top: 1rem;
+  background-image: url("../images/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
   background-color: white;
-  z-index: 1;
-
+  color: black;
 }
 
-header .content {
+nav div {
   display: flex;
   align-items: center;
-  padding: 1.3rem 1.8rem 0.3rem 1.3rem;
 }
 
-header .logo {
-  flex: 1;
-  align-items: center;
-  text-transform: uppercase;
+nav img {
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
 }
 
-header img {
-  height: 32px;
-}
-
-#logotype {
-  word-spacing: 1.75rem;
-}
-
-header nav ul {
-  display: flex;
+nav ul {
+  margin-right: 1rem;
 }
 
 nav li {
-  padding-left: 3.5rem;
+  display: inline;
+  padding: 0 1rem;
 }
 
-nav a {
-  vertical-align: bottom;
-  line-height: 1.6;
-  font-size: 1rem;
-  color: #4a4a4a;
-  text-transform: uppercase;
-  text-decoration: none;
-  word-spacing: .5rem;
+.truncated-menu {
+  display: none;
 }
