@@ -45,6 +45,10 @@ h5 {
   max-width: 75%;
   margin: auto;
 }
+
+.bg-box {
+  background-color: grey;
+}
 /* Header */
 
 header {
@@ -87,4 +91,72 @@ nav li {
 
 .truncated-menu {
   display: none;
+}
+
+.message {
+  background-color: white;
+  position: relative;
+  margin-top: 5rem;
+}
+
+/*.overlay {
+  background-color: grey;
+  opacity: 10;
+}*/
+/*below the fold*/
+
+.main-panel{
+  max-width: 60%;
+}
+
+.main-panel img{
+  max-width: 100%;
+}
+
+.side-panel {
+  flex-direction: column;
+}
+
+.call-out{
+  align-items: center;
+}
+
+/*Start learning*/
+.headline {
+  justify-content: center;
+  text-align: center;
+}
+
+.content {
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 30%;
+  background-color: white;
+}
+.card img{
+  max-width: 100%;
+}
+
+/*footer section*/
+
+footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+  height: 3rem;
+  margin: 1rem 1rem;
+}
+ footer span {
+   flex-grow: 1;
+ }
+footer li {
+  display: inline;
+  padding: 0 1rem;
+}
+
+foter a {
+  color: white;
 }
