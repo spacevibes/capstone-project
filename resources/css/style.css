@@ -60,6 +60,11 @@ h5 {
   padding: 1rem 0 4rem 0;
 }
 
+.container-max {
+  max-width: 100%;
+  margin: auto;
+}
+
 .bg-box {
   background-color: #EBEBEB;
 }
@@ -182,6 +187,10 @@ nav li {
   font-size: 3.3rem;
 }
 
+.main-text {
+  padding-left: 3%;
+}
+
 .side-panel {
   flex-direction: column;
   max-width: 40%;
@@ -261,11 +270,18 @@ nav li {
   margin-bottom: 5%;
 }
 
-.main-media {
+.video-media {
   background-color: #F6F5F5;
-  padding-bottom: 1%;
+  padding: 1%;
   margin-bottom: 3%;
+}
 
+.video-text {
+  padding-left: 3%;
+}
+
+.video-text p {
+  max-width: 750px;
 }
 
 /*footer section*/
@@ -274,18 +290,14 @@ footer {
   width: 100%;
   background-color: #5E60F1;
   color: white;
-  height: 3rem;
+  height: 7rem;
 }
-
- footer span {
-   flex-grow: 1;
- }
 
 footer li {
   display: inline;
   padding: 0 1rem;
 }
 
-foter a {
-  color: white;
+footer a {
+  color: orange;
 }
